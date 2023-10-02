@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+body{
+    padding: 400px;
+    margin: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(18, 18, 18);
+
+}
+
+.contenedor{
+
+   padding: 5px;
+ 
+}
+.TITULO{
+text-align: center;
+    font-size: 30px;
+    color: rgb(21, 179, 219);
+box-shadow: -2px 1px 10px rgb(0, 255, 247);
+    font-family: 'Tilt Prism', cursive;
+    text-shadow: 2px 3px 4px rgb(13, 111, 231);
+
+}
+
+.cerrar {
+ 
+    width: 85px;
+    height: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 2px;
+    border-style:outset;
+    border-color: rgb(21, 223, 241);
+text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 229, 255);
+    padding: 2px;
+    margin: 10px 10px;
+    text-shadow: 2px 1px 4px rgb(0, 0, 0);
+  }
+  .cerrar:hover{
+    text-shadow: 1px 1px 2px rgb(0, 225, 255);
+    background-color: rgb(45, 45, 45);
+    border: 2px solid rgb(9, 234, 246);
+    color: rgb(255, 255, 255);
+  }
+  .bien{
+    font-size: 22px;
+    font-family: 'Merriweather Sans', sans-serif;
+    height: 30px;
+    width: 500px;
+    color: rgb(225, 225, 239);
+text-shadow: 1px 2px 5px rgb(0, 153, 255);
+}
+
+.redes{
+  color:black;
+    font-family: 'Bebas Neue', cursive;
+    background: #d4d4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #cfd2d4, #eff2f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #bebfc0, #c3c3c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    opacity: unset;
+    border-radius: 10px;
+    border-color: black;
+    padding: 20px;
+}
+.io{
+  font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700;800&family=Josefin+Sans:ital,wght@1,400;1,500&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+
+.tl1{
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 2px 5px rgb(18, 244, 229);
+
+}
+
+.o1{
+
+
+  width: 311px;
+border-width: 4px;
+  background: linear-gradient(0deg, black, rgb(44, 43, 43));
+
+    border-radius: 12px;
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+      font-size: 14px;
+      -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+      border-style:double;
+
+      animation: animation 20s ease-in-out infinite;
+    }
+    
+    @keyframes animation {
+    0%{border-color: rgb(0, 234, 255);}
+    10%{border-color:rgb(28, 198, 255)}
+    20%{border-color:rgb(0, 183, 255)}
+    /*30%{border-color:rgb(0, 221, 255)}
+    40%{border-color:rgb(28, 255, 210)}*/
+    50%{border-color: rgb(0, 148, 222)}
+    60%{border-color:rgb(21, 213, 210)}
+    /*70%{border-color:rgb(0, 47, 255)}*/
+    80%{border-color:rgb(27, 231, 254)}
+    90%{border-color:rgb(41, 202, 243)}
+    100%{border-color:rgb(0, 195, 255)}
+    }
+
+/*.o1:hover {
+    transform: scale(1.1);
+  }*/
+  
+
+.cc{
+font-family: 'Bebas Neue', cursive;
+  display: block;
+  text-decoration: none;
+  padding: 8px;
+  background-color: rgb(1, 255, 242);
+  color: rgb(0, 0, 0);
+  width: 200px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 1px 2px 6px 1px rgb(17, 179, 248);
+  transition: .2s;
+  text-align: center;
+  text-shadow: 2px 1px 4px rgb(70, 208, 224);
+
+}
+.cc:hover{
+    
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(13, 255, 251);
+  color: rgb(255, 255, 255);
+}
+
+
+.oa{
+
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.GAME{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgb(0, 204, 255);
+    font-family: 'Secular One', sans-serif;
+}

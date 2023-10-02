@@ -1,0 +1,9 @@
+<?php   
+ //CerrarSesion.php  
+ session_start(); 
+ 
+ session_destroy();  
+ header("location:LOGIN.PHP");  
+
+
+ ?>  
